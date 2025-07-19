@@ -1,0 +1,10 @@
+.rsw-toolbar{
+    @apply !bg-background !text-primary 
+}
+
+.rsw-btn{
+    @apply !text-primary dark:hover:!bg-neutral-500 dark:hover:!text-white
+}
+button[data-active="true"] {
+    @apply !text-primary dark:hover:!bg-neutral-800 dark:hover:!text-white
+}
